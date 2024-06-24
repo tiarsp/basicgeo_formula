@@ -17,76 +17,47 @@ hello <- function() {
   print("Hello, world!")
 }
 
-luas_pers = function(sisi1,sisi2)
-{luas_pers = sisi1*sisi2
-print(luas_pers)}
+square_area = function(d1,d2)
+{square_area = d1*d2
+print(square_area)}
 
-kel_pers = function(sisi)
-{kel_pers = 4*sisi
-print(kel_pers)}
-
-
-luas_pp = function(panjang,lebar)
-{luas_pp = panjang*lebar
-print(luas_pp)}
-
-kel_pp = function(panjang,lebar)
-{kel_pp = 2*(panjang+lebar)
-print(kel_pp)}
+square_circumference = function(d)
+{square_circumference = 4*d
+print(square_circumference)}
 
 
-luas_seg3 = function(alas,tinggi)
-{luas_seg3=(1/2)*alas*tinggi
-print(luas_seg3)}
+rectangular_area = function(l,w)
+{rectangular_area = l*w
+print(rectangular_area)}
 
-kel_seg3 = function(alas,sisi1,sisi2)
-{kel_seg3=alas+sisi1+sisi2
-print(kel_seg3)}
-
-
-luas_lingk = function(phi,r)
-{luas_lingk = phi*r^2
-print(luas_lingk)}
-
-kel_lingk = function(phi,r)
-{kel_lingk = 2*phi*r
-print(kel_lingk)}
+rectangular_circumference = function(l,w)
+{rectangular_circumference = 2*(l+w)
+print(rectangular_circumference)}
 
 
-luas_trape = function(sisi1,sisi2,tinggi)
-{luas_trape = ((sisi1+sisi2)/2)*tinggi
-print(luas_trape)}
+triangle_area = function(a,h)
+{triangle_area=(1/2)*a*h
+print(triangle_area)}
 
-kel_trape = function(sisi1,sisi2,sisi3,sisi4)
-{kel_trape = sisi1+sisi2+sisi3+sisi4
-print(kel_trape)}
-
-
-luas_belkup = function(d1,d2)
-{luas_belkup = 1/2*d1*d2
-print(luas_belkup)}
-
-kel_belkup = function(sisi1,sisi2,sisi3,sisi4)
-{kel_belkup = sisi1+sisi2+sisi3+sisi4
-print(kel_belkup)}
+triangle_circumference = function(a,d1,d2)
+{triangle_circumference=a+d1+d2
+print(triangle_circumference)}
 
 
-luas_jjgj = function(alas, tinggi)
-{luas_jjgj = alas*tinggi
-print(luas_jjgj)}
+circle_area = function(phi,r)
+{circle_area = phi*r^2
+print(circle_area)}
 
-kel_jjgj = function(sisi1,sisi2,sisi3,sisi4)
-{kel_jjgj = sisi1+sisi2+sisi3+sisi4
-print(kel_jjgj)}
-
-
-luas_laylay = function(d1,d2)
-{luas_laylay = 1/2*d1*d2
-print(luas_laylay)}
-
-kel_laylay = function(sisi1,sisi2,sisi3,sisi4)
-{kel_laylay = sisi1+sisi2+sisi3+sisi4
-print(kel_laylay)}
+circle_circumference = function(phi,r)
+{circle_circumference = 2*phi*r
+print(circle_circumference)}
 
 
+trapezium_area = function(d1,d2,h)
+{trapezium_area = ((d1+d2)/2)*h
+print(trapezium_area)}
+
+trapezium_circumference = function(d1,d2,d3,d4)
+{trapezium_circumference = d1+d2+d3+d4
+print(trapezium_circumference)}
 
