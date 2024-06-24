@@ -87,6 +87,6 @@ print(luas_laylay)}
 kel_laylay = function(sisi1,sisi2,sisi3,sisi4)
 {kel_laylay = sisi1+sisi2+sisi3+sisi4
 print(kel_laylay)}
-kel_laylay(4,7)
+
 
 
